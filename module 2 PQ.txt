@@ -1,0 +1,66 @@
+		MEDIUM PRACTICED LOOPS - FOR LOOP
+1.	for n in range(2, 51):
+    	for i in range(2, n):
+        	if n % i == 0:
+            		break
+    		else:
+        		print(n, end=" ")
+
+2.	n = int(input("Enter n: "))
+	sum = 0
+	for i in range(1, n+1):
+    		sum += i
+	print("Total =", sum)
+
+3.	n=int(input("Enter a number: "))
+	i=1
+	while i<=10:
+    		print(n,"X",i,"=",n*i)
+    		i+=1
+4.	n = input("Enter a number rey: ")
+	count = 0
+	for i in n:
+    		count += 1
+	print("Number of digits are=", count)
+
+5.	start = int(input("Enter start: "))
+	end = int(input("Enter end: "))
+	for i in range(start, end+1):
+    		if i % 2 == 0:
+        		print(i)
+
+		MEDIUM PRACTICED LOOPS - WHILE LOOP
+
+1.	i = 1
+	while i <= 50:
+    		print(i, end=" ")
+   		i += 1
+
+2.	n = int(input("Enter N: "))
+	i = 1
+	total = 0
+	while i <= n:
+    		total += i
+    		i += 1
+	print("Sum =", total)
+
+3.	n = int(input("Enter a number: "))
+	i = 1
+	while i <= 10:
+    		print(n, "x", i, "=", n*i)
+    		i += 1
+
+4.	n = int(input("Enter a number: "))
+	count = 0
+	while n > 0:
+    		count += 1
+    		n //= 10
+	print("Number of digits =", count)
+
+5.	start = int(input("Enter start: "))
+	end = int(input("Enter end: "))
+	i = start
+	while i <= end:
+    		if i % 2 == 0:
+        		print(i, end=" ")
+    			i += 1
